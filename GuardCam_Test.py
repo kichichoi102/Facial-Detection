@@ -4,7 +4,7 @@ import pandas as pd
 
 request = vision_v1.GetProductSetRequest(name="name")
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'ServiceAccountToken.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'###Directory to Google Cloud Key#####'
 
 client = vision_v1.ImageAnnotatorClient()
 
